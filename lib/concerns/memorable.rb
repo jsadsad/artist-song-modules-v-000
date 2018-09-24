@@ -6,5 +6,6 @@ def reset_all
 end
 
 def count
-  self.all
+  self.all.count
+end
   
