@@ -6,6 +6,7 @@ class Artist
   
   extend Memorable::ClassMethods
   extend Findable::ClassMethods
+  include Findable::InstanceMethods
 
   @@artists = []
 
