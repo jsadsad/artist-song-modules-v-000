@@ -5,5 +5,8 @@ module Findable
     end    
   end
   module InstanceMethod
-    
+    def to_param
+      name.downcase.gsub(' ', '-')
+    end
+  end
 end
